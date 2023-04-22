@@ -76,3 +76,7 @@ def logout(request):
     global login_user
     login_user = ''
     return redirect('home')
+
+
+
+# message = 'Hello Tiko'
